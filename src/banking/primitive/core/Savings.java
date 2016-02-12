@@ -21,6 +21,7 @@ public class Savings extends Account {
 			if (balance >= 0.0f) {
 				setState(State.OPEN);
 			}
+			return true; // Edit for Lab for branch bug-16
 		}
 		return false;
 	}
